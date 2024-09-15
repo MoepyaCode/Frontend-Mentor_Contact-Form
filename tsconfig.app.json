@@ -22,6 +22,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@app-components": ["src/components"],
+      "@app-components/*": ["src/components/*"],
+    }
   },
   "include": ["src"]
 }

@@ -8,7 +8,19 @@ export default {
     backgroundColor: theme => ({
       ...theme('colors'),
     }),
-    extend: {},
+    extend: {
+      fontFamily: {
+        karla: ['Karla', 'sans-serif'],
+      },
+      colors: {
+        green: {
+          200: '#E0F1E8',
+          500: '#86A2A5',
+          600: '#0C7D69',
+          900: '#2A4144',
+        }
+      }
+    },
   },
   plugins: [],
 }

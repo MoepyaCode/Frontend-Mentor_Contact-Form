@@ -1,6 +1,24 @@
 /* Add Google fonts below */
-
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .heading {
+        @apply font-bold text-[32px] leading-[100%] tracking-[-1px]
+    }
+
+    .body-m-bold {
+        @apply font-bold text-[18px] leading-[150%]
+    }
+
+    .body-m {
+        @apply text-[18px] leading-[150%]
+    }
+
+    .body-s {
+        @apply leading-[150%]
+    }
+}
