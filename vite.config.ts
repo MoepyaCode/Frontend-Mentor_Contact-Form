@@ -11,6 +11,10 @@ export default defineConfig({
     alias: {
       '@app-components': resolve(root, 'components'),
       '@app-components/*': resolve(root, 'components/*'),
+      '@app-hooks': resolve(root, 'hooks'),
+      '@app-hooks/*': resolve(root, 'hooks/*'),
+      '@app-assets': resolve(root, 'assets'),
+      '@app-assets/*': resolve(root, 'assets/*'),
     },
   },
 })
