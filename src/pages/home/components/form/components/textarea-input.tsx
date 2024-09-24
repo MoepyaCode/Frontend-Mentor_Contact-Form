@@ -1,5 +1,4 @@
 import { Wrapper } from '@app-components'
-import React from 'react'
 
 type Props = {
     name: string

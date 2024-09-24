@@ -1,6 +1,6 @@
 import { Main } from "@app-components"
 import Form from "./components/form"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import SubmissionMessage from "./components/submission-message"
 
 export default function Home() {

@@ -8,7 +8,6 @@ import {
   SubmitButton,
 } from "./components"
 import React, { useEffect } from "react"
-import _ from "lodash"
 
 type Props = {
   handleVerification: (value: boolean | null) => void
@@ -34,7 +33,7 @@ export default function Form(props: Props) {
       props.handleVerification(verificationPassed)
     }
 
-  }, [verificationPassed])
+  }, [verificationPassed, props])
 
   return (
     <form onSubmit={handleSubmit} className="max-w-[736px] w-full bg-white p-6 sm:p-10 flex flex-col gap-10 rounded-2xl">

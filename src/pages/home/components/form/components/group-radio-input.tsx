@@ -1,6 +1,5 @@
 import { Wrapper } from '@app-components'
 import RadioInput from './radio-input'
-import CheckboxInput from './checkbox-input'
 
 type Props = {
     title: string
